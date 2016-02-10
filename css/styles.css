@@ -1,8 +1,14 @@
+body{
+  background-image: url("../images/space.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 #title {
   font-size: 8em;
   font-family: sans-serif;
   line-height: 80px;
-  color: #34495e;
+  color: #ffffff;
   width:100%;
   text-align: center;
   position: relative;
@@ -14,6 +20,7 @@
 
 .map{
   position: relative;
+  border-radius: 500px;
   /*display: block;
   margin-left: auto;
   margin-right: auto;*/
@@ -23,9 +30,7 @@
 .animal-pic {
   height: 100px;
   width: 100px;
-  /*overflow: hidden;
-  border-radius: 50%;*/
-  position: relative;
+  position: absolute;
 }
 
 #antelope {
@@ -42,8 +47,8 @@
 
 .antelope-desc{
   position: absolute;
-  bottom: 100px;
-  left:903px;
+  bottom: 200px;
+  left:675px;
   background-color:rgba(255,255,255,0.8);
   width:250px;
   font-family: sans-serif;
@@ -63,8 +68,24 @@
   width: auto;
   position: absolute;
   left: 1450px;
-  bottom: 450px;
+  bottom: 375px;
   border: 3px solid #fff;
+}
+
+.jerboa-desc{
+  position: absolute;
+  bottom: 485px;
+  left: 1350px;
+  background-color:rgba(255,255,255,0.8);
+  width:250px;
+  font-family: sans-serif;
+  padding: 10px;
+  z-index: 1;
+  display: none;
+}
+
+#jerboa:hover + .jerboa-desc {
+  display: inline;
 }
 
 #grey-wolf {
@@ -73,9 +94,25 @@
   height: 100%;
   width: auto;
   position: absolute;
-  left: 300px;
-  bottom: 1000px;
+  left: 260px;
+  bottom: 825px;
   border: 3px solid #fff;
+}
+
+.grey-wolf-desc{
+  position: absolute;
+  bottom: 600px;
+  left: 425px;
+  background-color:rgba(255,255,255,0.8);
+  width:250px;
+  font-family: sans-serif;
+  padding: 10px;
+  z-index: 1;
+  display: none;
+}
+
+#grey-wolf:hover + .grey-wolf-desc {
+  display: inline;
 }
 
 #harpy-eagle {
@@ -84,9 +121,25 @@
   height: 100%;
   width: auto;
   position: absolute;
-  left: 480px;
-  bottom: 700px;
+  left: 375px;
+  bottom: 360px;
   border: 3px solid #fff;
+}
+
+.harpy-eagle-desc{
+  position: absolute;
+  bottom: 320px;
+  left: 540px;
+  background-color:rgba(255,255,255,0.8);
+  width:250px;
+  font-family: sans-serif;
+  padding: 10px;
+  z-index: 1;
+  display: none;
+}
+
+#harpy-eagle:hover + .harpy-eagle-desc {
+  display: inline;
 }
 
 #hoary-bat {
@@ -95,9 +148,25 @@
   height: 100%;
   width: auto;
   position: absolute;
-  left: 0px;
-  bottom: 1150px;
+  left: 100px;
+  bottom: 765px;
   border: 3px solid #fff;
+}
+
+.hoary-bat-desc{
+  position: absolute;
+  bottom: 440px;
+  left: 100px;
+  background-color:rgba(255,255,255,0.8);
+  width:250px;
+  font-family: sans-serif;
+  padding: 10px;
+  z-index: 1;
+  display: none;
+}
+
+#hoary-bat:hover + .hoary-bat-desc {
+  display: inline;
 }
 
 #markhor {
@@ -106,9 +175,25 @@
   height: 100%;
   width: auto;
   position: absolute;
-  left: 1025px;
-  bottom: 1300px;
+  left: 1000px;
+  bottom: 850px;
   border: 3px solid #fff;
+}
+
+.markhor-desc{
+  position: absolute;
+  bottom: 325px;
+  left:1000px;
+  background-color:rgba(255,255,255,0.8);
+  width:250px;
+  font-family: sans-serif;
+  padding: 10px;
+  z-index: 1;
+  display: none;
+}
+
+#markhor:hover + .markhor-desc {
+  display: inline;
 }
 
 #monk-seal {
@@ -117,9 +202,25 @@
   height: 100%;
   width: auto;
   position: absolute;
-  left: 850px;
-  bottom: 1450px;
+  left: 810px;
+  bottom: 800px;
   border: 3px solid #fff;
+}
+
+.monk-seal-desc{
+  position: absolute;
+  bottom: 525px;
+  left: 523px;
+  background-color:rgba(255,255,255,0.8);
+  width:250px;
+  font-family: sans-serif;
+  padding: 10px;
+  z-index: 1;
+  display: none;
+}
+
+#monk-seal:hover + .monk-seal-desc {
+  display: inline;
 }
 
 #margay {
@@ -129,8 +230,24 @@
   width: auto;
   position: absolute;
   left: 300px;
-  bottom: 1350px;
+  bottom: 620px;
   border: 3px solid #fff;
+}
+
+.margay-desc{
+  position: absolute;
+  bottom: 475px;
+  left: 443px;
+  background-color:rgba(255,255,255,0.8);
+  width:250px;
+  font-family: sans-serif;
+  padding: 10px;
+  z-index: 1;
+  display: none;
+}
+
+#margay:hover + .margay-desc {
+  display: inline;
 }
 
 #river-dolphin {
@@ -139,9 +256,25 @@
   height: 100%;
   width: auto;
   position: absolute;
-  left: 1200px;
-  bottom: 1500px;
+  left: 1190px;
+  bottom: 770px;
   border: 3px solid #fff;
+}
+
+.river-dolphin-desc{
+  position: absolute;
+  bottom: 427px;
+  left: 1140px;
+  background-color:rgba(255,255,255,0.8);
+  width:250px;
+  font-family: sans-serif;
+  padding: 10px;
+  z-index: 1;
+  display: none;
+}
+
+#river-dolphin:hover + .river-dolphin-desc {
+  display: inline;
 }
 
 #sperm-whale {
@@ -151,6 +284,22 @@
   width: auto;
   position: absolute;
   left: 1000px;
-  bottom: 1100px;
+  bottom: 220px;
   border: 3px solid #fff;
+}
+
+.sperm-whale-desc{
+  position: absolute;
+  bottom: 180px;
+  left: 725px;
+  background-color:rgba(255,255,255,0.8);
+  width:250px;
+  font-family: sans-serif;
+  padding: 10px;
+  z-index: 1;
+  display: none;
+}
+
+#sperm-whale:hover + .sperm-whale-desc {
+  display: inline;
 }
