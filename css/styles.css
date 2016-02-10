@@ -1,0 +1,156 @@
+#title {
+  font-size: 8em;
+  font-family: sans-serif;
+  line-height: 80px;
+  color: #34495e;
+  width:100%;
+  text-align: center;
+  position: relative;
+}
+/*
+.container{
+  position: relative;
+}*/
+
+.map{
+  position: relative;
+  /*display: block;
+  margin-left: auto;
+  margin-right: auto;*/
+  top: -50px;
+}
+
+.animal-pic {
+  height: 100px;
+  width: 100px;
+  /*overflow: hidden;
+  border-radius: 50%;*/
+  position: relative;
+}
+
+#antelope {
+  /*margin: 0 0 0 -50px;*/
+  display: inline;
+  margin: 0 0 0 0px;
+  height: 100%;
+  width: auto;
+  position: absolute;
+  left: 950px;
+  bottom: 500px;
+  border: 3px solid #fff;
+}
+
+.antelope-desc{
+  position: absolute;
+  bottom: 100px;
+  left:903px;
+  background-color:rgba(255,255,255,0.8);
+  width:250px;
+  font-family: sans-serif;
+  padding: 10px;
+  z-index: 1;
+  display: none;
+}
+
+#antelope:hover + .antelope-desc {
+  display: inline;
+}
+
+#jerboa {
+  display: inline;
+  margin: 0 0 0 0px;
+  height: 100%;
+  width: auto;
+  position: absolute;
+  left: 1450px;
+  bottom: 450px;
+  border: 3px solid #fff;
+}
+
+#grey-wolf {
+  display: inline;
+  margin: 0 0 0 0px;
+  height: 100%;
+  width: auto;
+  position: absolute;
+  left: 300px;
+  bottom: 1000px;
+  border: 3px solid #fff;
+}
+
+#harpy-eagle {
+  display: inline;
+  margin: 0 0 0 0px;
+  height: 100%;
+  width: auto;
+  position: absolute;
+  left: 480px;
+  bottom: 700px;
+  border: 3px solid #fff;
+}
+
+#hoary-bat {
+  display: inline;
+  margin: 0 0 0 0px;
+  height: 100%;
+  width: auto;
+  position: absolute;
+  left: 0px;
+  bottom: 1150px;
+  border: 3px solid #fff;
+}
+
+#markhor {
+  display: inline;
+  margin: 0 0 0 0px;
+  height: 100%;
+  width: auto;
+  position: absolute;
+  left: 1025px;
+  bottom: 1300px;
+  border: 3px solid #fff;
+}
+
+#monk-seal {
+  display: inline;
+  margin: 0 0 0 0px;
+  height: 100%;
+  width: auto;
+  position: absolute;
+  left: 850px;
+  bottom: 1450px;
+  border: 3px solid #fff;
+}
+
+#margay {
+  display: inline;
+  margin: 0 0 0 0px;
+  height: 100%;
+  width: auto;
+  position: absolute;
+  left: 300px;
+  bottom: 1350px;
+  border: 3px solid #fff;
+}
+
+#river-dolphin {
+  display: inline;
+  margin: 0 0 0 0px;
+  height: 100%;
+  width: auto;
+  position: absolute;
+  left: 1200px;
+  bottom: 1500px;
+  border: 3px solid #fff;
+}
+
+#sperm-whale {
+  display: inline;
+  margin: 0 0 0 0px;
+  height: 100%;
+  width: auto;
+  position: absolute;
+  left: 1000px;
+  bottom: 1100px;
+  border: 3px solid #fff;
+}
